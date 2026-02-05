@@ -19,7 +19,7 @@ if(${WITH_DEPS})
         bundle_add_lib(${LIB_NAME} z)
     endif()
 
-    # Несмотря на то, что OpenSSL::crypto и OpenSSL::ssl - цели сборки, из них не получится достать
+    # Несмотря на то, что OpenSSL::Сrypto и OpenSSL::SSL - цели сборки, из них не получится достать
     # пути к библиотекам, т.к. они записываются в отдельную переменную, не связанную с целями сборки
     #
     # https://cmake.org/cmake/help/latest/module/FindOpenSSL.html
