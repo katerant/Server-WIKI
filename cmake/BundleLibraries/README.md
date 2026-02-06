@@ -3,7 +3,7 @@
 Использование: 
 
 ```cmake
-
+include(BundleLibraries.cmake)
 add_library(${LIB_NAME} STATIC ${LIB_SOURCES})
 
 find_package(fmt CONFIG REQUIRED)
