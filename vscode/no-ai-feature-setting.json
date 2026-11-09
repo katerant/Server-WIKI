@@ -1,0 +1,28 @@
+// Made with AI
+
+// ==========================================================================================
+// ИНСТРУКЦИЯ ПО ПРИМЕНЕНИЮ НАСТРОЕК ДЛЯ ОТКЛЮЧЕНИЯ AI В ПРОЕКТЕ:
+//
+// 1. Создайте в самом корне вашего проекта ".vscode"
+//
+// 2. Внутри созданной папки ".vscode" создайте новый файл с именем: "settings.json"
+//
+// 3. Вставьте настройк
+// ==========================================================================================
+
+{
+  "chat.disableAIFeatures": true,
+  "chat.agent.enabled": false,
+  "chat.extensionTools.enabled": false,
+  "github.copilot.enable": {
+    "*": false
+  },
+  "github.copilot.chat.copilotDebugCommand.enabled": false,
+  "github.copilot.chat.reviewAgent.enabled": false,
+  "github.copilot.chat.reviewSelection.enabled": false,
+  "chat.emptyChatState.enabled": false,
+  "chat.mcp.access": "none",
+  "chat.commandCenter.enabled": false,
+  "editor.inlineSuggest.enabled": false,
+  "workbench.editor.empty.hint": "hidden"
+}
